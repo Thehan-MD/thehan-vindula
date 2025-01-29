@@ -41,3 +41,10 @@ button img:hover {
     margin-top: 20px;
     font-size: 1.2rem;
 }
+
+.gif {
+    width: 150px; /* Adjust size */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
