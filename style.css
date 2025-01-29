@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 2rem;
+    animation: glitch 1.5s infinite;
+}
+
+@keyframes glitch {
+    0% { text-shadow: 2px 2px red; }
+    50% { text-shadow: -2px -2px blue; }
+    100% { text-shadow: 2px 2px green; }
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button img {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+button img:hover {
+    transform: scale(1.1);
+}
+
+#content {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
